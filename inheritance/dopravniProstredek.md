@@ -16,4 +16,5 @@ Vytvoř pole s 3 různými objekty, zavolej popis() a zvuk() v cyklu
 
 ## Bonus (pro rychlejší):
 Přidej abstraktní metodu zvuk() v rodičovské třídě
+
 Nebo využij rozhraní ZvukovyProstredek
