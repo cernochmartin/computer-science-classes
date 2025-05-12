@@ -94,7 +94,7 @@ VALUES
 
 ---
 
-## 🌟 Shrnutí
+## Shrnutí
 - SQL = jazyk pro práci s relační databází
 - `SELECT`, `INSERT`, `UPDATE`, `DELETE` = základní nástroje práce s daty
 - Cvičení slouží jako základ pro libovolnou práci s daty v budoucích aplikacích
