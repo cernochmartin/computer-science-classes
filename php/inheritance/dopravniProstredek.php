@@ -9,44 +9,44 @@ class DopravniProstredek {
     }
 
     public function popis() {
-        echo "Toto je {$this->nazev}, jede rychlostí {$this->rychlost} km/h.\n";
+        echo "Toto je {$this->nazev}, jede rychlostí {$this->rychlost} km/h.";
     }
 
     public function zvuk() {
-        echo "Tento dopravní prostředek vydává nějaký zvuk.\n";
+        echo "Tento dopravní prostředek vydává nějaký zvuk.";
     }
 }
 
 class Auto extends DopravniProstredek {
     public function popis() {
         parent::popis();
-        echo "Typ: Auto\n";
+        echo "Typ: Auto";
     }
 
     public function zvuk() {
-        echo "{$this->nazev} říká: Brum brum!\n";
+        echo "{$this->nazev} říká: Brum brum!";
     }
 }
 
 class Letadlo extends DopravniProstredek {
     public function popis() {
         parent::popis();
-        echo "Typ: Letadlo\n";
+        echo "Typ: Letadlo";
     }
 
     public function zvuk() {
-        echo "{$this->nazev} říká: Vuuuum!\n";
+        echo "{$this->nazev} říká: Vuuuum!";
     }
 }
 
 class Kolo extends DopravniProstredek {
     public function popis() {
         parent::popis();
-        echo "Typ: Kolo\n";
+        echo "Typ: Kolo ";
     }
 
     public function zvuk() {
-        echo "{$this->nazev} říká: Crrr crrr!\n";
+        echo "{$this->nazev} říká: Crrr crrr!";
     }
 }
 
@@ -59,5 +59,5 @@ $dopravniProstredky = [$d1, $d2, $d3];
 foreach ($dopravniProstredky as $dopravniProstredek) {
     $dopravniProstredek->popis();
     $dopravniProstredek->zvuk();
-    echo "\n";
+    echo " ";
 }

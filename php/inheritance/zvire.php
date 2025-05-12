@@ -7,13 +7,13 @@ class Zvire {
     }
 
     public function pozdrav() {
-        echo "Ahoj, jsem $this->jmeno.\n";
+        echo "Ahoj, jsem $this->jmeno.";
     }
 }
 
 class Pes extends Zvire {
     public function stekej() {
-        echo "$this->jmeno říká: Haf haf!\n";
+        echo "$this->jmeno říká: Haf haf!";
     }
 }
 
