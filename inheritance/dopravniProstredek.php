@@ -54,10 +54,8 @@ $d1 = new Auto("Škoda Octavia", 160);
 $d2 = new Letadlo("Boeing 737", 850);
 $d3 = new Kolo("Favorit", 25);
 
-// Pole dopravních prostředků
 $dopravniProstredky = [$d1, $d2, $d3];
 
-// Cyklus přes všechny a volání metod
 foreach ($dopravniProstredky as $dopravniProstredek) {
     $dopravniProstredek->popis();
     $dopravniProstredek->zvuk();
