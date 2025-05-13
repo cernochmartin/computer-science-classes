@@ -74,13 +74,6 @@ CREATE TABLE knihy (
 );
 ```
 
-### Úlohy
-1. Vlož alespoň 5 knih
-2. Vyber knihy starší než rok 2000
-3. Vyber `nazev` a `autor` knih se žánrem "Detektivka"
-4. Změň žánr knihy "Sherlock Holmes" na "Klasika"
-5. Smaž knihy s rokem < 1950
-
 ### Vložení dat
 ```sql
 INSERT INTO knihy (nazev, autor, rok, zanr)
@@ -91,6 +84,13 @@ VALUES
 ('Zlocin a trest', 'Fjodor Dostojevskij', 1866, 'Román'),
 ('Lovci hlav', 'Jo Nesbø', 2008, 'Detektivka');
 ```
+
+### Úlohy
+1. Vlož alespoň 5 knih
+2. Vyber knihy starší než rok 2000
+3. Vyber `nazev` a `autor` knih se žánrem "Detektivka"
+4. Změň žánr knihy "Sherlock Holmes" na "Klasika"
+5. Smaž knihy s rokem < 1950
 
 ---
 
