@@ -30,7 +30,7 @@ VALUES ('Jan', 'Novak', 20),
 SELECT * FROM studenti;
 ```
 
-### 🌟 4. Výběr jen některých sloupců
+### 4. Výběr jen některých sloupců
 ```sql
 SELECT jmeno, vek FROM studenti;
 ```
