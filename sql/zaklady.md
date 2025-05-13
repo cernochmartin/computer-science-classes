@@ -66,7 +66,7 @@ SELECT COUNT(*) FROM studenti;
 ### Struktura tabulky
 ```sql
 CREATE TABLE knihy (
-    id INT PRIMARY KEY AUTO_INCREMENT, // id SERIAL PRIMARY KEY
+    id INT PRIMARY KEY AUTO_INCREMENT, -- id SERIAL PRIMARY KEY,
     nazev VARCHAR(100),
     autor VARCHAR(100),
     rok INT,
