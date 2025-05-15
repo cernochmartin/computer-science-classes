@@ -56,7 +56,6 @@ class Rogue extends Human {
     }
 }
 
-// Ukazka pouziti
 $warrior = new Warrior("Thorin");
 $mage = new Mage("Gandalf");
 $rogue = new Rogue("Loki");
