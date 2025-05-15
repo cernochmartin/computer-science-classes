@@ -10,7 +10,7 @@
 ### 1. Vytvoření tabulky
 ```sql
 CREATE TABLE studenti (
-    id INT PRIMARY KEY AUTO_INCREMENT, // id SERIAL PRIMARY KEY
+    id INT PRIMARY KEY AUTO_INCREMENT, -- id SERIAL PRIMARY KEY,
     jmeno VARCHAR(50),
     prijmeni VARCHAR(50),
     vek INT
@@ -30,7 +30,7 @@ VALUES ('Jan', 'Novak', 20),
 SELECT * FROM studenti;
 ```
 
-### 🌟 4. Výběr jen některých sloupců
+### 4. Výběr jen některých sloupců
 ```sql
 SELECT jmeno, vek FROM studenti;
 ```
@@ -66,20 +66,13 @@ SELECT COUNT(*) FROM studenti;
 ### Struktura tabulky
 ```sql
 CREATE TABLE knihy (
-    id INT PRIMARY KEY AUTO_INCREMENT, // id SERIAL PRIMARY KEY
+    id INT PRIMARY KEY AUTO_INCREMENT, -- id SERIAL PRIMARY KEY,
     nazev VARCHAR(100),
     autor VARCHAR(100),
     rok INT,
     zanr VARCHAR(50)
 );
 ```
-
-### Úlohy
-1. Vlož alespoň 5 knih
-2. Vyber knihy starší než rok 2000
-3. Vyber `nazev` a `autor` knih se žánrem "Detektivka"
-4. Změň žánr knihy "Sherlock Holmes" na "Klasika"
-5. Smaž knihy s rokem < 1950
 
 ### Vložení dat
 ```sql
@@ -91,6 +84,13 @@ VALUES
 ('Zlocin a trest', 'Fjodor Dostojevskij', 1866, 'Román'),
 ('Lovci hlav', 'Jo Nesbø', 2008, 'Detektivka');
 ```
+
+### Úlohy
+1. Vlož alespoň 5 knih
+2. Vyber knihy starší než rok 2000
+3. Vyber `nazev` a `autor` knih se žánrem "Detektivka"
+4. Změň žánr knihy "Sherlock Holmes" na "Klasika"
+5. Smaž knihy s rokem < 1950
 
 ---
 
