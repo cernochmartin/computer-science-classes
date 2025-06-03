@@ -9,18 +9,18 @@
 
 ---
 
-## 1. Teoretický úvod + příklady (45 minut)
+## 1. Teoretický úvod
 
 ### Příprava tabulek
 
 ```sql
 CREATE TABLE departments (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY, -- id SERIAL PRIMARY KEY, (v Supabase)
     name VARCHAR(50)
 );
 
 CREATE TABLE employees (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY, -- id SERIAL PRIMARY KEY, (v Supabase)
     name VARCHAR(50),
     salary INT,
     department_id INT,
@@ -93,7 +93,7 @@ FROM employees;
 
 ---
 
-## 2. Samostatná práce – Úkoly (45 minut)
+## 2. Samostatná práce
 
 ### Použité tabulky:
 - `employees(id, name, salary, department_id)`
