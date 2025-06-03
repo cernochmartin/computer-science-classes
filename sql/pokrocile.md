@@ -28,6 +28,28 @@ CREATE TABLE employees (
 );
 ```
 
+### Data
+
+```sql
+INSERT INTO departments (id, name) VALUES
+(1, 'HR'),
+(2, 'IT'),
+(3, 'Sales'),
+(4, 'Marketing');
+
+INSERT INTO employees (id, name, salary, department_id) VALUES
+(1, 'Alice', 55000, 1),
+(2, 'Bob', 72000, 2),
+(3, 'Charlie', 48000, 2),
+(4, 'David', 39000, 3),
+(5, 'Eve', 61000, 3),
+(6, 'Frank', 43000, 4),
+(7, 'Grace', 53000, 1),
+(8, 'Heidi', 47000, 2),
+(9, 'Ivan', 66000, 3),
+(10, 'Judy', 38000, 4);
+```
+
 ### 1.1 GROUP BY + agregace
 ```sql
 SELECT department_id, COUNT(*) AS num_employees
