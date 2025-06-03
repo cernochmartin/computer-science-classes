@@ -10,7 +10,7 @@
 ### 1. Vytvoření tabulky
 ```sql
 CREATE TABLE studenti (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT, -- id SERIAL PRIMARY KEY, (v Supabase)
     jmeno VARCHAR(50),
     prijmeni VARCHAR(50),
     vek INT
@@ -66,7 +66,7 @@ SELECT COUNT(*) FROM studenti;
 ### Struktura tabulky
 ```sql
 CREATE TABLE knihy (
-    id INT PRIMARY KEY AUTO_INCREMENT, -- id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT, -- id SERIAL PRIMARY KEY, (v Supabase)
     nazev VARCHAR(100),
     autor VARCHAR(100),
     rok INT,
